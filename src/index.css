@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F3F0E9;
+    color: #242825;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E7E0D0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #AB9B81;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #517B65;
+}
+
+/* Custom subtle luxury utilities */
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.luxury-card-hover {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(36, 40, 37, 0.08);
+}
+
+.img-zoom-container {
+  overflow: hidden;
+}
+
+.img-zoom {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.img-zoom-container:hover .img-zoom {
+  transform: scale(1.05);
+}
+
+/* Soft text shadow for hero overlay */
+.text-shadow-subtle {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* Subtle content reveal animation for expandable mobile sections */
+@keyframes luxuryReveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: luxuryReveal 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ========================================================
+   RESPONSIVE LUXURY NAVBAR UTILITIES
+   Bespoke proportions for Mobile, Tablet and Desktop
+   ======================================================== */
+.nav-book-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #517B65;
+  color: #FFFFFF;
+  border-radius: 9999px;
+  /* Oval / pill shape in phone view */
+  border: 1px solid rgba(81, 123, 101, 0.4);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  height: 32px;
+  padding: 0 11px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.nav-book-btn:hover {
+  background-color: #426553;
+}
+
+.nav-book-btn:active {
+  background-color: #345042;
+  transform: scale(0.98);
+}
+
+/* Phone view text: "Book" */
+.nav-book-text-mobile {
+  display: inline;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 4.5px;
+}
+
+/* Desktop view text: "Book Your Stay" */
+.nav-book-text-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .nav-book-btn {
+    border-radius: 2px;
+    /* Let desktop view as it is */
+    height: 40px;
+    padding: 0 18px;
+  }
+
+  .nav-book-text-mobile {
+    display: none;
+  }
+
+  .nav-book-text-desktop {
+    display: inline;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 6px;
+  }
+
+}
+
+/* Responsive Logo Typography */
+.nav-logo-brand {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  user-select: none;
+  text-align: center;
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+}
+
+.nav-logo-sub {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  user-select: none;
+  text-align: center;
+  display: block;
+  padding-top: 2px;
+  font-size: 6.5px;
+  letter-spacing: 0.18em;
+}
+
+@media (min-width: 375px) {
+  .nav-logo-brand {
+    font-size: 13px;
+    letter-spacing: 0.11em;
+  }
+
+  .nav-logo-sub {
+    font-size: 7px;
+    letter-spacing: 0.2em;
+  }
+}
+
+@media (min-width: 414px) {
+  .nav-logo-brand {
+    font-size: 14px;
+    letter-spacing: 0.13em;
+  }
+
+  .nav-logo-sub {
+    font-size: 7.5px;
+    letter-spacing: 0.22em;
+  }
+}
+
+@media (min-width: 640px) {
+  .nav-logo-brand {
+    font-size: 17px;
+    letter-spacing: 0.16em;
+  }
+
+  .nav-logo-sub {
+    font-size: 9px;
+    letter-spacing: 0.26em;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-logo-brand {
+    font-size: 21px;
+    letter-spacing: 0.18em;
+  }
+
+  .nav-logo-sub {
+    font-size: 9.5px;
+    letter-spacing: 0.3em;
+  }
+}

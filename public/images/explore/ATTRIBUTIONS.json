@@ -1,0 +1,63 @@
+{
+  "ellora-caves.jpg": {
+    "monument": "Ellora Caves (Kailasa Temple - Cave 16)",
+    "wikimedia_file": "File:Kailasa_Temple_at_Ellora_Caves.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Rohit14400\" title=\"User:Rohit14400\">Rohit14400</a>",
+    "dimensions": "1920x1281",
+    "file_size_kb": 628.9
+  },
+  "bibi-ka-maqbara.jpg": {
+    "monument": "Bibi Ka Maqbara",
+    "wikimedia_file": "File:Bibi_ka_Maqbara,_Aurangabad,_Maharashtra,_India.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:IAshishTripathi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:IAshishTripathi (page does not exist)\">IAshishTripathi</a>",
+    "dimensions": "1920x1440",
+    "file_size_kb": 659.9
+  },
+  "daulatabad-fort.jpg": {
+    "monument": "Daulatabad Fort",
+    "wikimedia_file": "File:Daulatabad_Fort_Aurangabad.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lakshmeesha_BS&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lakshmeesha BS (page does not exist)\">Lakshmeesha BS</a>",
+    "dimensions": "1920x1440",
+    "file_size_kb": 851.3
+  },
+  "grishneshwar-temple.jpg": {
+    "monument": "Grishneshwar Jyotirlinga Temple",
+    "wikimedia_file": "File:Grishneshwar_Jyotirlinga_Temple.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yashsawji&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yashsawji (page does not exist)\">Yashsawji</a>",
+    "dimensions": "1080x791",
+    "file_size_kb": 152.9
+  },
+  "lonar-crater.jpg": {
+    "monument": "Lonar Crater Lake",
+    "wikimedia_file": "File:Lonar_crater_lake.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:V4vjk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:V4vjk (page does not exist)\">V4vjk</a>",
+    "dimensions": "1024x518",
+    "file_size_kb": 126.9
+  },
+  "panchakki.jpg": {
+    "wikimedia_file": "File:Aurangabad Panchakki.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Shishirdasika\" title=\"User:Shishirdasika\">Shishirdasika</a>",
+    "dimensions": "1920x1279",
+    "file_size_kb": 528.5
+  },
+  "aurangabad-caves.jpg": {
+    "wikimedia_file": "File:Aurangabad Caves 6 - Aurangabad Maharashtra.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Yashs999\" title=\"User:Yashs999\">Yashs999</a>",
+    "dimensions": "1920x1280",
+    "file_size_kb": 679.6
+  },
+  "ajanta-caves.jpg": {
+    "wikimedia_file": "File:Cave 26, Ajanta.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Dey.sandip\" title=\"User:Dey.sandip\">Dey.sandip</a>",
+    "dimensions": "1920x1247",
+    "file_size_kb": 886.2
+  }
+}
